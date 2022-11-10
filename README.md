@@ -1,2 +1,0 @@
-# Barriguirosada-Shop
-Tienda virtual
