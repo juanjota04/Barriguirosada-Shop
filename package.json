@@ -25,7 +25,7 @@
     "start": "webpack server --open",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d dist"
   },
   "keywords": [
     "javascript",
