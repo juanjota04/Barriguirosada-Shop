@@ -2,8 +2,8 @@ import React, { useState, useContext } from 'react';
 import '@styles/Header.scss';
 import Menu from '@components/Menu';
 import MyOrder from '../containers/MyOrder';
-import menu from '@icons/icon_menu.svg';
-import logo from '@logos/logo_yard_sale.svg';
+import menuIcon from '@icons/icon_menu.svg';
+import logo from '@logos/LogoTrans.png';
 import AppContext from '../context/AppContext';
 import shoppingCart from '@icons/icon_shopping_cart.svg';
 
@@ -18,7 +18,7 @@ const Header = () => {
 
 	return (
 		<nav>
-			<img src={menu} alt="menu" className="menu" />
+			<img src={menuIcon} alt="menu" className="menu" />
 			<div className="navbar-left">
 				<img src={logo} alt="logo" className="nav-logo" />
 				<ul>
@@ -26,16 +26,16 @@ const Header = () => {
 						<a href="/">All</a>
 					</li>
 					<li>
-						<a href="/">Clothes</a>
+						<a href="/">Pines</a>
 					</li>
 					<li>
-						<a href="/">Electronics</a>
+						<a href="/">Protectores</a>
 					</li>
 					<li>
-						<a href="/">Furnitures</a>
+						<a href="/">Forros</a>
 					</li>
 					<li>
-						<a href="/">Toys</a>
+						<a href="/">Combos</a>
 					</li>
 					<li>
 						<a href="/">Others</a>
@@ -45,7 +45,7 @@ const Header = () => {
 			<div className="navbar-right">
 				<ul>
 					<li className="navbar-email" onClick={handleToggle}>
-						platzi@example.com
+						barrigui@example.com
 					</li>
 					<li
 						className="navbar-shopping-cart"

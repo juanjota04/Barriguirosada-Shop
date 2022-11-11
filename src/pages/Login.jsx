@@ -21,11 +21,11 @@ const Login = () => {
 				<img src={logo} alt="logo" className="logo" />
 				<form action="/" className="form" ref={form}>
 					<label htmlFor="email" className="label">Email address</label>
-					<input type="text" name="email" placeholder="platzi@example.cm" className="input input-email" />
+					<input type="text" name="email" placeholder="barrigui@example.cm" className="input input-email" />
 					<label htmlFor="password" className="label">Password</label>
 					<input type="password" name="password" placeholder="*********" className="input input-password" />
 					<button
-						onClick={handleSubmit}
+						onClick={() => handleSubmit()}
 						className="primary-button login-button">
 						Log in
 					</button>
